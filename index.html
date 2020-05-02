@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>CALCULATOR</h1>
+        <p>WITH HTML, CSS, JS</p>
+    </header>
+
+    <main>
+        <section class="calculator">
+            <input type="text" id="display">
+            <button id="clear" onclick="cleary()">C</button>
+            <button id="+" onclick="transfer('+')" >+</button>
+            <button id="one" onclick="transfer(1)">1</button>
+            <button id="two" onclick="transfer(2)">2</button>
+            <button id="three" onclick="transfer(3)" >3</button>
+            <button id="muliplicate" onclick="transfer('*')"  >*</button>
+            <button id="four" onclick="transfer(4)" >4</button>
+            <button id="five"onclick="transfer(5)"  >5</button>
+            <button id="six"onclick="transfer(6)"  >6</button>
+            <button id="minus"onclick="transfer('-')"  >-</button>
+            <button id="seven"onclick="transfer(7)"  >7</button>
+            <button id="eight" onclick="transfer(8)" >8</button>
+            <button id="nine" onclick="transfer(9)" >9</button>
+            <button id="divide" onclick="transfer('/')" >/</button>
+            <button id="zero" onclick="transfer(0)" >0</button>
+            <button id="point"onclick="transfer('.')"  >.</button>
+            <button id="equals"onclick="calc()" >=</button>
+        </section>
+    </main>
+
+
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
